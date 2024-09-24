@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <properties>
+  <property name="0 10" value="RailTrail.tmx 28 12"/>
+  <property name="0 6" value="RailTrail.tmx 28 9"/>
+  <property name="0 7" value="RailTrail.tmx 28 9"/>
+  <property name="0 8" value="RailTrail.tmx 28 10"/>
+  <property name="0 9" value="RailTrail.tmx 28 11"/>
+  <property name="12 19" value="oldMainInside.tmx 18 8"/>
+  <property name="13 19" value="oldMainInside.tmx 18 8"/>
+  <property name="14 19" value="oldMainInside.tmx 18 8"/>
+  <property name="15 19" value="oldMainInside.tmx 18 8"/>
+  <property name="16 19" value="oldMainInside.tmx 18 8"/>
+  <property name="29 10" value="quad.tmx 1 103"/>
+  <property name="29 6" value="quad.tmx 1 101"/>
+  <property name="29 7" value="quad.tmx 1 101"/>
+  <property name="29 8" value="quad.tmx 1 102"/>
+  <property name="29 9" value="quad.tmx 1 102"/>
+ </properties>
+ <tileset firstgid="1" source="tileset/tileset file/Collision_layer.tsx"/>
+ <imagelayer id="11" name="Background" locked="1">
+  <image source="tileset/fountainBackground.png" width="960" height="640"/>
+ </imagelayer>
+ <layer id="9" name="Collision" width="30" height="20" locked="1" opacity="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="12" name="Foreground" locked="1">
+  <image source="tileset/FountainForeground.png" width="960" height="640"/>
+ </imagelayer>
+</map>

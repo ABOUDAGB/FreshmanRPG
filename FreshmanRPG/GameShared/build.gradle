@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+apply from: file('database-builders.gradle')
+
+group 'edu.ship.engr'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+test {
+    useJUnitPlatform()
+}

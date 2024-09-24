@@ -1,0 +1,34 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.10'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.1.0'
+}
+
+mainClassName = "api.CompanionAppServerApplication"
+
+group = 'edu.ship.cs'
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':GameShared')
+    implementation project(':GameServer')
+    implementation project(path: ':GameServer', configuration: 'testArtifacts')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+shadowJar {
+//	dependsOn(test)
+    archiveFileName = 'RestfulServer.jar'
+    destinationDirectory = new File(project.projectDir, "build")
+}

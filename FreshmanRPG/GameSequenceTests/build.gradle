@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+group 'edu.ship.engr'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':GameShared')
+    implementation project(':GameServer')
+    implementation project(':LoginServer')
+    implementation project(':GameClient')
+    testImplementation project(path: ':GameClient', configuration: 'testArtifacts')
+    testImplementation project(path: ':GameServer', configuration: 'testArtifacts')
+    testImplementation project(path: ':GameShared', configuration: 'testArtifacts')
+}
+
+test {
+    useJUnitPlatform()
+}
