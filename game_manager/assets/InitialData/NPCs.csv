@@ -1,0 +1,17 @@
+playerID,behaviorClass,filePath
+13,model.QuizBotBehavior,
+17,model.RedHatBehavior,
+23,model.TutorBehavior,
+24,model.RandomFactsNPCBehavior,
+26,model.RandomFactsNPCBehavior,
+27,model.RandomFactsNPCBehavior,
+28,model.RandomFactsNPCBehavior,
+30,model.RandomFactsNPCBehavior,
+31,model.NPCBehaviorRPS,
+32,model.RoamingInfoNPCBehavior,Assets/MowreyInfoXML.xml
+33,model.RoamingInfoNPCBehavior,Assets/Npc_info.xml
+34,model.RoamingInfoNPCBehavior,Assets/Cella.xml
+35,model.RandomFactsNPCBehavior,
+37,model.RandomFactsNPCBehavior,
+38,model.RandomFactsNPCBehavior,
+39,model.RandomFactsNPCBehavior,

@@ -1,0 +1,4 @@
+questID,questTitle,questDescription,triggerMapName,triggerRow,triggerColumn,experiencePointsGained,objectivesForFulfillment,completionActionType,completionActionParameter,startDate,endDate
+108,Scavenger Hunt,Get acquainted with campus,quad.tmx,92,7,10,15,1,,2024-3-15,2024-9-15
+109,Events,Go do the fun things!,quad.tmx,92,7,10,5,1,,2024-3-15,2024-9-15
+110,Stuff for Class,Be a good crewmate,quad.tmx,92,7,10,4,1,,2024-3-15,2024-9-15
